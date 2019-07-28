@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>CarsRentSystem</OriginalElement>
+  <nodes>
+    <node x="570.0" y="206.5">CarsRentSystem.PassengerCars</node>
+    <node x="216.0" y="525.0">CarsRentSystem.RentSystem</node>
+    <node x="315.5" y="0.0">CarsRentSystem.Car</node>
+    <node x="274.0" y="195.0">CarsRentSystem.PickUpCars</node>
+    <node x="0.0" y="525.0">CarsRentSystem.AllCars</node>
+    <node x="0.0" y="206.5">CarsRentSystem.GoodsCars</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="CarsRentSystem.PickUpCars" target="CarsRentSystem.Car">
+      <point x="0.0" y="-142.5" />
+      <point x="0.0" y="72.5" />
+    </edge>
+    <edge source="CarsRentSystem.GoodsCars" target="CarsRentSystem.Car">
+      <point x="0.0" y="-131.0" />
+      <point x="127.0" y="170.0" />
+      <point x="347.6666666666667" y="170.0" />
+      <point x="-64.33333333333331" y="72.5" />
+    </edge>
+    <edge source="CarsRentSystem.PassengerCars" target="CarsRentSystem.Car">
+      <point x="0.0" y="-131.0" />
+      <point x="701.5" y="170.0" />
+      <point x="476.3333333333333" y="170.0" />
+      <point x="64.33333333333331" y="72.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="417.0" y="359.0" />
+  <SelectedNodes>
+    <node>CarsRentSystem.Car</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
